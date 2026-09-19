@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    gap: 40px;
+}
+.controls {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 10px;
+}
+.response-panel {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 10px;
+}
+
+#response {
+    height: 600px;
+    resize: none;
+}
