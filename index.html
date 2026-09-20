@@ -1,7 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GREEN-API Test</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -14,30 +16,33 @@
             <p>Тестовое задание</p>
 
             <label for="idInstance">idInstance</label>
-            <input type="text" id="idInstance">
+            <input type="text" id="idInstance" placeholder="Введите idInstance">
 
             <label for="apiTokenInstance">ApiTokenInstance</label>
-            <input type="text" id="apiTokenInstance">
+            <input type="text" id="apiTokenInstance" placeholder="Введите ApiTokenInstance">
+
             <button id="getSettingsButton">getSettings</button>
             <button id="getStateInstanceButton">getStateInstance</button>
+
             <label for="chatId">chatId</label>
-            <input type="text" id="chatId">
+            <input type="text" id="chatId" placeholder="Например: 77771234567@c.us">
 
             <label for="message">message</label>
-            <textarea id="message"></textarea>
+            <textarea id="message" placeholder="Введите сообщение"></textarea>
 
             <button id="sendMessageButton">sendMessage</button>
 
             <label for="fileChatId">chatId</label>
-            <input type="text" id="fileChatId">
+            <input type="text" id="fileChatId" placeholder="Например: 77771234567@c.us">
 
             <label for="fileUrl">URL файла</label>
-            <input type="text" id="fileUrl">
+            <input type="text" id="fileUrl" placeholder="https://example.com/file.jpg">
 
             <label for="fileName">Имя файла</label>
-            <input type="text" id="fileName">
+            <input type="text" id="fileName" placeholder="Например: photo.jpg">
 
             <button id="sendFileByUrlButton">sendFileByUrl</button>
+
         </div>
 
         <div class="response-panel">
@@ -45,6 +50,7 @@
             <textarea id="response" readonly></textarea>
         </div>
     </div>
+
     <script src="script.js"></script>
 </body>
 
